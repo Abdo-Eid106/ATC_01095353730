@@ -8,7 +8,7 @@ async function bootstrap() {
   app.setGlobalPrefix('/api');
   app.use(morgan('dev'));
 
-  app.use(new DelayMiddleWare().use);
+  // app.use(new DelayMiddleWare().use);
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
