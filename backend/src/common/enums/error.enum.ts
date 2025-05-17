@@ -1,0 +1,15 @@
+export enum ErrorEnum {
+  INVALID_CREDENTIALS = 'invalid credentials',
+  USER_NOT_FOUND = 'user is not found',
+  EMAIL_IN_USE = 'email already in use',
+  TAG_ALREADY_EXIST = 'tag is already exist',
+  TAG_NOT_FOUND = 'tag not found',
+  SOME_TAGS_NOT_FOUND = 'some tags not found',
+  CATEGORY_ALREADY_EXIST = 'category is already exist',
+  CATEGORY_NOT_FOUND = 'category not found',
+  EVENT_NOT_FOUND = 'event not found',
+  EVENT_ALREADY_BOOKED = 'event already booked',
+  FILE_NOT_FOUND = 'Uploaded file not found',
+  INVALID_FILE_TYPE = 'Invalid file type',
+  INVALID_FILE_SIZE = 'File size exceeds the allowed limit',
+}
