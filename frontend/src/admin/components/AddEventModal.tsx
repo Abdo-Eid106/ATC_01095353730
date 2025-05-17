@@ -17,7 +17,6 @@ import { useTagOptions } from "../../common/hooks/useTags";
 import { useCategoryOptions } from "../../common/hooks/useCategories";
 import { useUploadImage } from "../../common/hooks/useUpload";
 import { LoadingOutlined, PlusOutlined } from "@ant-design/icons";
-import { ToastContainer } from "react-toastify";
 import { SuccessEnum } from "../../common/enums/success.enum";
 const { TextArea } = Input;
 
@@ -70,7 +69,6 @@ export const AddEventModal = (modalState: AddModal) => {
       footer={null}
       style={{ maxWidth: 1000 }}
     >
-      <ToastContainer />
       <Form
         layout="vertical"
         form={form}
